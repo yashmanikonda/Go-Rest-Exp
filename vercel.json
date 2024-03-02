@@ -1,7 +1,10 @@
 {
-  "functions": {
-    "api/connect": {
-      "runtime": "vercel-python@0.3.2"
+  "version": 2,
+  "builds": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python"
     }
-  }
+  ]
 }
+
